@@ -20,7 +20,7 @@ load_mpl_rc()
 
 print(vl(0.1))
 
-print("{:e}".format(vsp(20, 1, 1000, vl(0.1))))
+print("{:.2e}".format(vsp(20, 1, 1000, vl(0.1))))
 
 print(vsscp(20, 1, 1000, vl(0.1)))
 
